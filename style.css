@@ -12,4 +12,20 @@ body {
 
 .greeting {
     color: white;
+    font-size: x-large;
+}
+
+.cursor {
+    color: white;
+    font-size: x-large;
+    animation: blinker 1s linear infinite; 
+}
+
+@keyframes blinker {
+    0.001%, 50% {
+        opacity: 0;
+    }
+    0%, 50.001% {
+        opacity: 1;
+    }
 }
